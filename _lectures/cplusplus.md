@@ -183,7 +183,7 @@ Because `width` and `height` are `private`, only the member functions `setValues
 
 ### Creating an Object from a class
 
-An **object** is an *instance* of a class.  By analogy with traditional variables, a `class` introduces a new *data type*, which an **abject** would be the *variable* of a given data type.  For example we might declare instances of an integer variable
+An **object** is an *instance* of a class.  By analogy with traditional variables, a `class` introduces a new *data type*, which an **object** would be the *variable* of a given data type.  For example we might declare instances of an integer variable
 ```cpp
 int a1, a2, a3;
 ```
@@ -282,7 +282,7 @@ Apart from code management, there is little difference between defining a member
 
 ### Separating classes into header and source files
 
-Taking this one step further, C\+\+ wisdom dictates that the parts of teh class be separated into a **Rectangle.cpp** *source* file (note the **.cpp** suffix) and a **Rectangle.h** *header* file.  This is not essential, but is demonstrated below.
+Taking this one step further, C\+\+ wisdom dictates that the parts of the class be separated into a **Rectangle.cpp** *source* file (note the **.cpp** suffix) and a **Rectangle.h** *header* file.  This is not essential, but is demonstrated below.
 
 ```cpp
 /***************************************
@@ -397,7 +397,7 @@ class Rectangle {
   
   Rectangle() {              // DEFAULT CONSTRUCTOR
     width = 0;
-    heigh = 0;
+    height = 0;
   }
   
   int getArea() {
